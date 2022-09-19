@@ -1,0 +1,108 @@
+.container{
+
+width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200,0.9);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal{
+    width: 60%;
+    min-height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+.esc{
+    
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.save{
+    width: 15%;
+    background-color: limegreen;
+    border:none;
+    color: white;
+}
+
+.save:hover{
+    animation: saveloop 2s ease-in-out infinite;
+}
+
+@keyframes saveloop {
+    0%{
+        width: 15%;
+        border-radius: 0;
+    }
+    50%{
+        width: 10%;
+        border-radius: 15px;
+    }
+    100%{
+        width: 15%;
+        border-radius: 0px;
+    }
+}
+
+.head input{
+    width: 50%;
+    
+}
+
+.mas{
+    width: 5%;
+    background-color: white;
+    color:limegreen;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    transition: 0.5s ease-out;
+    
+}
+
+.mas:hover{
+    color: white;
+    background-color:limegreen;
+}
+
+.pregunta{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30%;
+    column-gap: 10px;
+
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    height: 100px;
+    width: 100%;
+}
+

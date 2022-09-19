@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.tabla{
+    padding-top: 50px;
+    width: 40%;
+}
+
+.tabla td,
+.tabla tr,
+.tabla td,
+.tabla th{
+    border: 1px solid black;
+}
+
+.tabla td{
+    text-align: center;
+    height: 40px;
+}
+
+.add{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 20px;
+    justify-content: center;
+
+}
+
+.add input[type=text]{
+    height:30px;
+    width:60%;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.add select{
+    height:30px;
+    width:60%;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.eliminar{
+    height: 70%;
+    width: 70%;
+    color: red;
+    text-decoration: underline;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.eliminar:hover{
+    color: white;
+    background-color:red;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.archivo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.archivo > input{
+    padding-left: 10%;
+    
+}
+
+.db{
+    color:black;
+    height:30px;
+    width: 20%;
+    border-radius:  20px 0px 0px 20px;
+}
+
+.db:disabled{
+    background-color:rgb(226, 225, 225);
+}
+
+.cyg{
+    
+    background-color: white;
+    border:none;
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s linear;
+    height: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-28px);
+}
+
+.cyg:hover{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+
+}

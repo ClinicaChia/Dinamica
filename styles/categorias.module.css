@@ -1,0 +1,55 @@
+
+
+.otros{
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.otros article{
+    display:flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.otros input{
+    width: 40%;
+    text-align: center;
+}
+
+.menos{
+    width: 5%;
+    background-color: white;
+    color:red;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    transition: 0.5s ease-out;
+    
+}
+
+.menos:hover{
+    color: white;
+    background-color:red;
+}
+
+.mas{
+    width: 5%;
+    background-color: white;
+    color:limegreen;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    transition: 0.5s ease-out;
+    
+}
+
+.mas:hover{
+    color: white;
+    background-color:limegreen;
+}

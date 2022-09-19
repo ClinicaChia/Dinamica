@@ -1,0 +1,72 @@
+.navbar{
+    
+    background-color: DodgerBlue;
+    min-Height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 24px;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:70px;
+}
+
+.nombre{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navLinkI{
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+
+.navLink{
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

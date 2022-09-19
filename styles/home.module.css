@@ -1,0 +1,138 @@
+.container_img{
+    display: flex;
+    align-items: center;
+    flex: 50%;
+    height: 100vh;
+    background: blue;
+    clip-path: polygon(0 0, 0% 100%, 100% 53%);
+    margin-left:-100%;
+    opacity: 0;
+    
+    animation: left_side 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes left_side {
+
+    0%{
+    margin-left:-100%;
+    opacity: 0;
+    }
+
+    100%{
+    margin-left:0;
+    opacity: 1;
+    }
+    
+}
+
+.container{
+    margin:0;
+    padding:0;    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    display: flex;
+    padding-left:10%;
+    width: 50%;
+    
+}
+
+.content{
+
+    margin-top:-100%;
+
+    background: blue;
+    height: 100vh;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: up_side 1s forwards;
+}
+
+.content form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@keyframes up_side {
+
+    0%{
+    margin-top:-100%;
+
+    }
+
+    100%{
+    margin-top:0;
+
+    }
+    
+}
+
+.content h1{
+    
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+    text-align: justify;
+    color: white;
+    font-style: italic;
+}
+
+.content input{
+    width: 50%;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: blue;
+    color: white;
+}
+
+.content input::placeholder{
+   color: white;
+   font-size:20px;
+}
+
+.content input:focus{
+    border: 3px solid white;
+ }
+
+
+ .content .btn {
+     margin-top: 20px;
+ background: white;
+   color: blue;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 4px solid white;
+    transition: 0.5s ease;
+    font-weight: bold;
+
+ }
+
+ .content .btn:hover {
+    color : white;
+    background: blue;
+    border: 4px solid white;
+ }
+
+
+

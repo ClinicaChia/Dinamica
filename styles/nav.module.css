@@ -1,0 +1,77 @@
+.navbar{
+    
+    background-color: DodgerBlue;
+    min-Height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 24px;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:70px;
+}
+
+
+
+.nombre{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menuA{
+   position: absolute;
+    left: 0;
+    top:60px;
+    gap:0;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    width: 100%;
+    transition: 0.3s;
+    text-align: center;
+
+}
+
+@media(max-width:768px){
+    .nombre{
+        font-size: 25px;
+    }
+
+    .menu{
+        position: fixed;
+        left: -200%;
+        top:70px;
+        gap:0;
+        flex-direction: column;
+        background-color: DodgerBlue;
+        transition: 0.3s;
+    }
+
+    .navItem{
+        margin:  16px 0;
+    }
+}
+
+@media(max-width:425px){
+    .nombre{
+        font-size: 20px;
+    }
+
+}
+

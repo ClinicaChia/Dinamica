@@ -1,0 +1,58 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h3{
+
+    margin-top: 40px;
+    width: 50%;
+    text-align: justify;
+    color:DodgerBlue;
+    font-style: italic;
+}
+.container input{
+
+    margin-top: 30px;
+    width: 80%;
+    height:30px;
+    font-size: 20px;
+
+}
+
+.container table{
+    margin-top: 20px;
+    width: 80%;
+    border: 2px solid black;
+}
+
+.container th{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.container tr{
+   
+    border: 2px solid black;
+}
+
+.container td{
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+}
+
+.puesto{
+    color:  dodgerblue;
+    font-weight: bold;
+}
+
+.puntuacion{
+    color: goldenrod;
+    font-weight: bold;
+}

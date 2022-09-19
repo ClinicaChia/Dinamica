@@ -1,0 +1,105 @@
+.container{
+    width: 100%;
+    padding-top: 40px;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.tabla{
+
+    width: 40%;
+}
+
+.tabla td,
+.tabla tr,
+.tabla td,
+.tabla th{
+    border: 1px solid black;
+}
+
+.tabla td{
+    text-align: center;
+    height: 40px;
+}
+
+
+.add{
+    transform: translateY(40%);
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.add button:disabled{
+    color: black;
+    font-size: 20px;
+
+}
+
+.add input[type="text"]{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.add h4{
+    padding-top: 20px;
+    font-size: 24px;
+    color: dodgerblue;
+    padding-bottom: 20px;
+}
+
+ .add label{
+     font-size: 18px;
+     margin-top: 10px;
+ }
+
+ .op input[type=checkbox]{
+     margin-right: 6px;
+ }
+
+ .op{
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .eliminar{
+    height: 30%;
+    width: 80%;
+    color: red;
+    text-decoration: underline;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.eliminar:hover{
+    color: white;
+    background-color:red;
+    border-radius: 5px;
+    
+    text-decoration: none;
+}
+
+
+.crear{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    color: limegreen;
+    background-color: white;
+    border: 2px solid limegreen;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    transform: translateX( 140px );
+    
+}
+
+.crear:hover{
+    color: white;
+    background-color:limegreen;
+    border-radius: 5px;
+    text-decoration: none;
+}

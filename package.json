@@ -1,0 +1,32 @@
+{
+  "name": "dinamica",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "serve": "pm2 start server.js --name Dinamica",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "async": "^3.2.3",
+    "axios": "^0.27.2",
+    "bunyan": "^1.8.15",
+    "busboy": "^1.6.0",
+    "classnames": "^2.3.1",
+    "ldap-authentication": "^2.2.9",
+    "ldapjs": "^2.3.2",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.6",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.2",
+    "react-player": "^2.10.1",
+    "underscore": "^1.13.3",
+    "xhr2": "^0.2.1",
+    "yarn": "^1.22.19"
+  }
+}

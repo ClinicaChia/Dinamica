@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.tabla{
+    padding-top: 50px;
+    width: 60%;
+}
+
+.tabla td,
+.tabla tr,
+.tabla td,
+.tabla th{
+    border: 1px solid black;
+}
+
+.tabla td{
+    text-align: center;
+    height: 40px;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eliminar{
+    height: 70%;
+    width: 20%;
+    color: red;
+    text-decoration: underline;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.eliminar:hover{
+    color: white;
+    background-color:red;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.reiniciar{
+    height: 70%;
+    width: 25%;
+    color: goldenrod;
+    text-decoration: underline;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.reiniciar:hover{
+    color: white;
+    background-color: gold;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.guardar{
+    height: 70%;
+    width: 20%;
+    color: limegreen;
+    text-decoration: underline;
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.guardar:hover{
+    color: white;
+    background-color: limegreen;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
